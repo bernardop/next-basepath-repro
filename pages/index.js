@@ -1,19 +1,19 @@
-import React from 'react'
-import Link from 'next/link'
+import React from "react";
+import Link from "next/link";
 
 export default function Home() {
   return (
     <ul>
       <li>
-        <Link href="/b" as="/a">
+        <Link href="/a">
           <a>a</a>
         </Link>
       </li>
       <li>
-        <Link href="/a" as="/b">
+        <Link href="/b">
           <a>b</a>
         </Link>
       </li>
     </ul>
-  )
+  );
 }
