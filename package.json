@@ -2,14 +2,16 @@
   "name": "custom-server-express",
   "version": "1.0.0",
   "scripts": {
-    "dev": "node server.js",
+    "dev": "next",
+    "dev:custom": "node server.js",
     "build": "next build",
-    "start": "cross-env NODE_ENV=production node server.js"
+    "start": "next start",
+    "start:custom": "cross-env NODE_ENV=production node server.js"
   },
   "dependencies": {
     "cross-env": "^7.0.2",
     "express": "^4.17.1",
-    "next": "latest",
+    "next": "^9.4.5-canary.12",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   }
